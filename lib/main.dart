@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(title: Text("codeinwithfida")),
-        body: SafeArea(child: Text("flutter pertama")),
+        body: SafeArea(child: Text("codeinwithfida")),
       ),
     );
   }
