@@ -18,7 +18,10 @@ class MyApp extends StatelessWidget {
         ),
       ),
       home: Scaffold(
-        appBar: AppBar(title: Text("codeinwithfida")),
+        appBar: AppBar(
+          title: Text("codeinwithfida"),
+          backgroundColor: Colors.blueAccent,
+        ),
         body: SafeArea(child: Text("first flutter")),
       ),
     );
