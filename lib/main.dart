@@ -13,20 +13,25 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'codeinwithfida',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 179, 10, 10),
-        ),
-      ),
+      theme: ThemeData(primarySwatch: Colors.amber),
       home: Scaffold(
         appBar: AppBar(
           title: Text("codeinwithfida"),
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: const Color.fromARGB(255, 0, 47, 135),
           actions: <Widget>[
-            IconButton(onPressed: () {}, icon: Icon(Icons.mail)),
+            IconButton(
+              onPressed: () {},
+              icon: Icon(Icons.mail),
+              color: const Color.fromARGB(255, 196, 196, 196),
+            ),
           ],
         ),
-        body: SafeArea(child: Text("first flutter")),
+        body: SafeArea(
+          child: Image(
+            image: AssetImage('assets/images/gambar.png'),
+            height: 200,
+          ),
+        ),
       ),
     );
   }
