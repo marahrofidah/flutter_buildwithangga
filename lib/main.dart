@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'codeinwithfida',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
@@ -21,6 +22,9 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("codeinwithfida"),
           backgroundColor: Colors.blueAccent,
+          actions: <Widget>[
+            IconButton(onPressed: () {}, icon: Icon(Icons.mail)),
+          ],
         ),
         body: SafeArea(child: Text("first flutter")),
       ),
