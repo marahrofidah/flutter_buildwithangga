@@ -26,6 +26,7 @@ class MyApp extends StatelessWidget {
           //   ),
           // ],
         ),
+        // blm bljr
         body: SafeArea(
           child: Container(
             color: const Color.fromARGB(255, 208, 208, 208),
