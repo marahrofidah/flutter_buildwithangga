@@ -30,10 +30,10 @@ class MyApp extends StatelessWidget {
         // blm bljr
         body: SafeArea(
           child: Container(
-            // color: const Color.fromARGB(255, 255, 255, 255),
+            color: const Color.fromARGB(255, 162, 162, 162),
             // margin: EdgeInsets.all(20),
-            // margin: EdgeInsets.only(left: 10, top: 0, right: 0, bottom: 0),
-            padding: EdgeInsets.only(left: 100, top: 50, right: 0, bottom: 0),
+            margin: EdgeInsets.only(left: 110, top: 0, right: 110, bottom: 0),
+            padding: EdgeInsets.only(left: 0, top: 50, right: 0, bottom: 0),
             child: Column(
               children: <Widget>[
                 Image(
@@ -41,7 +41,11 @@ class MyApp extends StatelessWidget {
                   height: 200,
                 ),
                 Text("Hi, I'm Fida", style: mainHeader),
-                Text("Let's Connect yuhuuuu awwwwww."),
+                Text(
+                  "Let's Connect \nyuhuuuu awwwwww.",
+                  style: subHeader,
+                  textAlign: TextAlign.center,
+                ),
               ],
             ),
           ),
