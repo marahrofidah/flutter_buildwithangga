@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
           //   ),
           // ],
         ),
-        // blm juga jir
+
         body: SafeArea(
           child: Container(
             color: const Color.fromARGB(255, 162, 162, 162),
