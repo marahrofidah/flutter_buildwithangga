@@ -5,6 +5,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// bjir
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
           //   ),
           // ],
         ),
-// ah pret
+        // ah pret
         body: SafeArea(
           child: Container(
             color: const Color.fromARGB(255, 162, 162, 162),
